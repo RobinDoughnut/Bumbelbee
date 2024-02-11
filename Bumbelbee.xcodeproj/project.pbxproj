@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26297E1E2B7686E100DDCBD8 /* LocationMapAnnotaionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26297E1D2B7686E100DDCBD8 /* LocationMapAnnotaionView.swift */; };
+		26297E202B76903800DDCBD8 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26297E1F2B76903800DDCBD8 /* LocationDetailView.swift */; };
+		265B23A82A645A75008AB4EB /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B23A72A645A75008AB4EB /* LocationsView.swift */; };
+		265B23AA2A658A9A008AB4EB /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B23A92A658A9A008AB4EB /* LocationsViewModel.swift */; };
+		26C62C602A77F463004585E0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C62C5F2A77F463004585E0 /* LocationsListView.swift */; };
 		26CCE3B72A60592D007E83CA /* BumbelbeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CCE3B62A60592D007E83CA /* BumbelbeeApp.swift */; };
 		26CCE3B92A60592D007E83CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CCE3B82A60592D007E83CA /* ContentView.swift */; };
-		26CCE3BB2A60592E007E83CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CCE3BA2A60592E007E83CA /* Assets.xcassets */; };
 		26CCE3BE2A60592E007E83CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CCE3BD2A60592E007E83CA /* Preview Assets.xcassets */; };
+		26CCE3C52A6059F1007E83CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CCE3C42A6059F1007E83CA /* Assets.xcassets */; };
+		26CCE3CA2A605B45007E83CA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CCE3C92A605B45007E83CA /* Location.swift */; };
+		26CCE3CD2A618BB0007E83CA /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CCE3CC2A618BB0007E83CA /* LocationsDataService.swift */; };
+		26D9DA992A84E5D900E28CFA /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9DA982A84E5D900E28CFA /* LocationPreviewView.swift */; };
+		26E776402B791BAF00AD8457 /* BumbelbeeReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 26E7763F2B791BAF00AD8457 /* BumbelbeeReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26297E1D2B7686E100DDCBD8 /* LocationMapAnnotaionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotaionView.swift; sourceTree = "<group>"; };
+		26297E1F2B76903800DDCBD8 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		26297E212B78B38C00DDCBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		265B23A72A645A75008AB4EB /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		265B23A92A658A9A008AB4EB /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		26C62C5F2A77F463004585E0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		26CCE3B32A60592D007E83CA /* Bumbelbee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bumbelbee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CCE3B62A60592D007E83CA /* BumbelbeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbelbeeApp.swift; sourceTree = "<group>"; };
 		26CCE3B82A60592D007E83CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		26CCE3BA2A60592E007E83CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CCE3BD2A60592E007E83CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26CCE3C42A6059F1007E83CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26CCE3C92A605B45007E83CA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		26CCE3CC2A618BB0007E83CA /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		26D9DA982A84E5D900E28CFA /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		26E7763F2B791BAF00AD8457 /* BumbelbeeReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BumbelbeeReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +70,15 @@
 		26CCE3B52A60592D007E83CA /* Bumbelbee */ = {
 			isa = PBXGroup;
 			children = (
+				26E7763F2B791BAF00AD8457 /* BumbelbeeReadMe.md */,
+				26297E212B78B38C00DDCBD8 /* Info.plist */,
 				26CCE3B62A60592D007E83CA /* BumbelbeeApp.swift */,
 				26CCE3B82A60592D007E83CA /* ContentView.swift */,
-				26CCE3BA2A60592E007E83CA /* Assets.xcassets */,
+				26CCE3CB2A618B78007E83CA /* DataServices */,
+				26CCE3C62A605B02007E83CA /* Models */,
+				26CCE3C72A605B0B007E83CA /* Views */,
+				26CCE3C82A605B11007E83CA /* ViewModels */,
+				26CCE3C42A6059F1007E83CA /* Assets.xcassets */,
 				26CCE3BC2A60592E007E83CA /* Preview Content */,
 			);
 			path = Bumbelbee;
@@ -65,6 +90,42 @@
 				26CCE3BD2A60592E007E83CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26CCE3C62A605B02007E83CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26CCE3C92A605B45007E83CA /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26CCE3C72A605B0B007E83CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				265B23A72A645A75008AB4EB /* LocationsView.swift */,
+				26297E1D2B7686E100DDCBD8 /* LocationMapAnnotaionView.swift */,
+				26C62C5F2A77F463004585E0 /* LocationsListView.swift */,
+				26297E1F2B76903800DDCBD8 /* LocationDetailView.swift */,
+				26D9DA982A84E5D900E28CFA /* LocationPreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26CCE3C82A605B11007E83CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				265B23A92A658A9A008AB4EB /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		26CCE3CB2A618B78007E83CA /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				26CCE3CC2A618BB0007E83CA /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CCE3C52A6059F1007E83CA /* Assets.xcassets in Resources */,
 				26CCE3BE2A60592E007E83CA /* Preview Assets.xcassets in Resources */,
-				26CCE3BB2A60592E007E83CA /* Assets.xcassets in Resources */,
+				26E776402B791BAF00AD8457 /* BumbelbeeReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CCE3CD2A618BB0007E83CA /* LocationsDataService.swift in Sources */,
+				26C62C602A77F463004585E0 /* LocationsListView.swift in Sources */,
+				26D9DA992A84E5D900E28CFA /* LocationPreviewView.swift in Sources */,
+				265B23AA2A658A9A008AB4EB /* LocationsViewModel.swift in Sources */,
+				26297E1E2B7686E100DDCBD8 /* LocationMapAnnotaionView.swift in Sources */,
 				26CCE3B92A60592D007E83CA /* ContentView.swift in Sources */,
+				265B23A82A645A75008AB4EB /* LocationsView.swift in Sources */,
+				26CCE3CA2A605B45007E83CA /* Location.swift in Sources */,
+				26297E202B76903800DDCBD8 /* LocationDetailView.swift in Sources */,
 				26CCE3B72A60592D007E83CA /* BumbelbeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,19 +332,20 @@
 		26CCE3C22A60592E007E83CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bumbelbee/Preview Content\"";
 				DEVELOPMENT_TEAM = XS698GX5LA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bumbelbee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,19 +362,20 @@
 		26CCE3C32A60592E007E83CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bumbelbee/Preview Content\"";
 				DEVELOPMENT_TEAM = XS698GX5LA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bumbelbee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
