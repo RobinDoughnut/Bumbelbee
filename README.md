@@ -1,6 +1,8 @@
 # Bumbelbee
 
-#### Video Demo:
+
+#### Gif Demo:
+![demo](https://github.com/user-attachments/assets/6aa622cc-f003-4958-b0d2-31eef45d6af7)
 
 #### Description: This is an iOS app made by Swift programming language and SwiftUI. MapKit for SwiftUI is implemented here mostly. Users can use this app to browse landmarks of Bangladesh and learn more about them. The exact co ordinates of the place is shown in the app. There are some images of the attraction which people can slide through. A short description of the destination is given for users to read through and a wikipedia link is provided to learn more. 
 
